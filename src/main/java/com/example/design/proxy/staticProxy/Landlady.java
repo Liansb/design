@@ -6,7 +6,7 @@ package com.example.design.proxy.staticProxy;
  * @author: shuaibin
  * @create: 2021-04-01 14:33
  **/
-public class Landlady implements LetOutService{
+public class Landlady implements LetOutProxyService{
     /**
      * 房东出租房子，交给中介代理
      * @return

@@ -6,7 +6,7 @@ package com.example.design.decorator;
  * @author: shuaibin
  * @create: 2021-04-01 14:20
  **/
-public class Television extends Furniture{
+public class Television extends FurnitureDecorator{
     /**
      * 用电视进行装饰
      */

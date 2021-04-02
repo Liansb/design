@@ -6,7 +6,7 @@ package com.example.design.decorator;
  * @author: shuaibin
  * @create: 2021-04-01 14:17
  **/
-public class Sofa extends Furniture{
+public class Sofa extends FurnitureDecorator{
     /**
      * 用沙发进行装饰
      */

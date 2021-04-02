@@ -8,5 +8,5 @@ public interface Room {
     /**
      * 展示方法
      */
-    public void show();
+    void show();
 }

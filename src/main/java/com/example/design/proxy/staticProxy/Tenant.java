@@ -9,7 +9,7 @@ package com.example.design.proxy.staticProxy;
 public class Tenant {
     public static void main(String[] args) {
         //租客通过中介租房子，中介通过代理收取了额外的费用
-        Medium medium = new Medium();
-        System.out.println("我是租客，租房花费" + medium.letOut() + "元");
+        MediumProxy MediumProxy = new MediumProxy();
+        System.out.println("我是租客，租房花费" + MediumProxy.letOut() + "元");
     }
 }

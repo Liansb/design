@@ -12,9 +12,9 @@ public class BedroomClient {
         Sofa sofa = new Sofa();
         Television television = new Television();
         //用沙发装饰房间
-        sofa.furniture(room);
+        sofa.FurnitureDecorator(room);
         //再加入电视
-        television.furniture(sofa);
+        television.FurnitureDecorator(sofa);
         television.show();
     }
 }
